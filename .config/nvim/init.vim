@@ -1,1 +1,0 @@
-/Users/luo/Dropbox/Mackup/.config/nvim/init.vim
