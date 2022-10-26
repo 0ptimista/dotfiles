@@ -1,42 +1,61 @@
 call plug#begin()
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' } "iTerm2 theme is in exra folder
-Plug 'gruvbox-community/gruvbox'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+" 文件导航/搜索/查找
 Plug 'nvim-lua/plenary.nvim' "required for telescope
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
-Plug 'nvim-lualine/lualine.nvim'
-Plug 'kyazdani42/nvim-web-devicons' "required for lualine
-Plug 'sbdchd/neoformat'
 
+" 内容分析，可根据分析进行语法高亮，自动缩进，代码折叠等。
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
+
+" 状态栏
+Plug 'nvim-lualine/lualine.nvim' " 状态栏
+Plug 'kyazdani42/nvim-web-devicons' "状态栏图标
+
+" LSP
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
+
+" 自动补全，cmp-buffer表示在buffer中自动补全。以此类推。
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
-Plug 'mrjones2014/dash.nvim', { 'do': 'make install' }
 
+" macOS Only
+Plug 'mrjones2014/dash.nvim', { 'do': 'make install' } " Dash API 查询
+
+" neovim主题
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' } "iTerm2 theme is in exra folder
+Plug 'gruvbox-community/gruvbox'
 call plug#end()
 
-"colorscheme tokyonight
-colorscheme gruvbox 
+
+colorscheme gruvbox
+" colorscheme tokyonight-moon
+
+
+" 全局设置
 set relativenumber
 set nohlsearch
-set nu
+set number
 set noswapfile
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
-set smartindent "make TAB turn SPACE
-set formatoptions= "防止自动添加注释
-set shell=zsh\ -l
+set formatoptions=  "防止自动添加注释
+set foldmethod=expr " 使用tree-sitter解析对代码进行折叠
+set foldexpr=nvim_treesitter#foldexpr()
+set completeopt=menu,menuone,noselect
 
-let mapleader=" "
+" 快捷键
+let mapleader="\\"  "设置leader key 为反斜杠'\'
+
 nnoremap <leader>q :q<cr>
-nnoremap <leader>ff <cmd>Telescope find_files <cr>
+" hidden=true, 允许Telescope查找隐藏文件(dotfiles)
+nnoremap <leader>ff <cmd>Telescope find_files hidden=true<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 "yank to clipboard
 noremap <Leader>y "*y
 "split window
@@ -48,54 +67,5 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-
-set completeopt=menu,menuone,noselect
-
-lua << EOF
-require('lualine').setup()
-require("nvim-lsp-installer").setup()
-  -- Set up nvim-cmp.
-  local cmp = require'cmp'
-  cmp.setup({
-    mapping = cmp.mapping.preset.insert({
-      ['<C-b>'] = cmp.mapping.scroll_docs(-4),
-      ['<C-f>'] = cmp.mapping.scroll_docs(4),
-      ['<C-Space>'] = cmp.mapping.complete(),
-      ['<C-e>'] = cmp.mapping.abort(),
-      ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
-    }),
-    sources = cmp.config.sources({
-      { name = 'nvim_lsp' },
-      --{ name = 'vsnip' }, -- For vsnip users.
-      -- { name = 'luasnip' }, -- For luasnip users.
-      -- { name = 'ultisnips' }, -- For ultisnips users.
-      -- { name = 'snippy' }, -- For snippy users.
-    }, {
-      { name = 'buffer' },
-    })
-  })
-  -- Use buffer source for `/` (if you enabled `native_menu`, this won't work anymore).
-  cmp.setup.cmdline('/', {
-    mapping = cmp.mapping.preset.cmdline(),
-    sources = {
-      { name = 'buffer' }
-    }
-  })
-  -- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
-  cmp.setup.cmdline(':', {
-    mapping = cmp.mapping.preset.cmdline(),
-    sources = cmp.config.sources({
-      { name = 'path' }
-    }, {
-      { name = 'cmdline' }
-    })
-  })
-  -- Set up lspconfig.
-  local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
-  -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-  require('lspconfig')['pyright'].setup {
-    capabilities = capabilities
-  }
-EOF
-
-
+" 插件设置
+:lua require('config')
