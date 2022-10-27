@@ -22,6 +22,7 @@ brew "grep" # 使用GNU `grep` macOS 默认安装FreeBSD `grep`
 brew "jq"
 brew "exa" # Modern replacement for `ls` 
 brew "fd"  # `find` alternative 
+brew "node"  # nodejs for pyright LSP Server
 
 # 等待区
 # brew "fzf" # Command-line fuzzy finder written in Go
