@@ -4,6 +4,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/cask-versions" # 允许下载一些旧版本软件，使用@指定版本号
 tap "homebrew/cask-drivers"  # 允许安装LogiTech Options
+tap "jesseduffield/lazygit"  # lazygit src
 
 
 brew "btop"
@@ -23,6 +24,7 @@ brew "jq"
 brew "exa" # Modern replacement for `ls` 
 brew "fd"  # `find` alternative 
 brew "node"  # nodejs for pyright LSP Server
+brew "lazygit"
 
 # 等待区
 # brew "fzf" # Command-line fuzzy finder written in Go
