@@ -52,6 +52,7 @@ cask "dash"
 cask "numi" #汇率转换工具(支持加密货币)
 cask "anaconda"
 cask "microsoft-remote-desktop"
+cask "kitty"
 
 # 从App Store下载的软件
 mas "Things", id: 904280696
