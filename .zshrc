@@ -35,6 +35,7 @@ export http_proxy=http://127.0.0.1:$mixedPort;
 export all_proxy=socks5://127.0.0.1:7891;
 
 export no_proxy=dev-prom.jlpay.io
+export BAT_THEME="gruvbox-dark"
 
 alias vi='nvim'
 alias vim='nvim'
@@ -45,6 +46,7 @@ alias ls='exa --icons'
 alias evimrc='vi ~/.config/nvim/init.vim'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias lg='lazygit -g $HOME/.cfg/ -w $HOME'
+alias cls='clear'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -2243,6 +2243,6 @@ background_opacity 0.95
 
 
 # BEGIN_KITTY_THEME
-# Tokyo Night
+# GitHub Dark Colorblind
 include current-theme.conf
 # END_KITTY_THEME
