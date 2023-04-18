@@ -11,4 +11,3 @@ use_preset_vocabulary: true     # true 或 false，选择是否导入预设词�
 import_tables:
   - luna_pinyin
   - luna_pinyin.sogou
-  - easy_en

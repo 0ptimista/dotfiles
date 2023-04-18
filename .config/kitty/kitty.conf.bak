@@ -6,8 +6,8 @@
 #: individual font faces and even specify special fonts for particular
 #: characters.
 
-# font_family      monospace
-font_family Hack Nerd Font
+#font_family      monospace
+font_family Hack Nerd Font Mono
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
@@ -759,7 +759,7 @@ bold_italic_font auto
 #: Fade the text in inactive windows by the specified amount (a number
 #: between zero and one, with zero being fully faded).
 
- hide_window_decorations titlebar-only
+# hide_window_decorations titlebar-only
 
 #: Hide the window decorations (title-bar and window borders) with
 #: yes. On macOS, titlebar-only can be used to only hide the titlebar.
@@ -994,7 +994,7 @@ bold_italic_font auto
 
 #: The foreground and background colors.
 
-background_opacity 0.95
+background_opacity 0.88
 
 #: The opacity of the background. A number between zero and one, where
 #: one is opaque and zero is fully transparent. This will only work if
@@ -1460,7 +1460,7 @@ background_opacity 0.95
 #: resizable on macOS. Changing this option by reloading the config
 #: will only affect newly created OS windows.
 
-# macos_thicken_font 0
+macos_thicken_font 0.75
 
 #: Draw an extra border around the font with the given width, to
 #: increase legibility at small font sizes on macOS. For example, a
@@ -2243,6 +2243,6 @@ background_opacity 0.95
 
 
 # BEGIN_KITTY_THEME
-# GitHub Dark Colorblind
+# Rosé Pine
 include current-theme.conf
 # END_KITTY_THEME
