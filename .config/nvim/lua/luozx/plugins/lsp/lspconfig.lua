@@ -52,47 +52,53 @@ lspconfig["lua_ls"].setup({
 		Lua = {
 			-- make the language server recognize "vim" global
 			diagnostics = {
-				globals = { "vim" },
+				globals = { "vim", "hs" },
 			},
 			workspace = {
 				-- make language server aware of runtime files
 				library = {
 					[vim.fn.expand("$VIMRUNTIME/lua")] = true,
 					[vim.fn.stdpath("config") .. "/lua"] = true,
+					["/Applications/Hammerspoon.app/Contents/Resources/extensions/hs/"] = true,
 				},
 			},
 		},
 	},
 })
 
--- configure python server
--- lspconfig["pyright"].setup({
+--configure python server
+--https://github.com/microsoft/pyright/blob/main/docs/settings.md
+lspconfig["pyright"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+	-- cmd = { "pyright-langserver", "--stdio" },
+	-- filetypes = { "python" },
+	-- root_dir = lspconfig.util.root_pattern("pyproject.toml", "setup.py", "setup.cfg", "requirements.txt", ".git"),
+	settings = {
+		python = {
+			venvPath = ".venv",
+			analysis = {
+				extraPaths = ".venv/lib/**/site-packages",
+				autoSearchPaths = true,
+				useLibraryCodeForTypes = true,
+			},
+		},
+	},
+})
+
+-- lspconfig["pylsp"].setup({
 -- 	capabilities = capabilities,
 -- 	on_attach = on_attach,
 -- 	settings = {
--- 		python = {
--- 			--venvPath = ".",
--- 			--venv = ".venv",
--- 			pythonPath = "/opt/homebrew/opt/python@3.11/bin/python3.11",
--- 			-- extraPaths = "__pypackages__/3.11/lib/",
--- 			--venvPath = "/opt/homebrew/Caskroom/miniconda/base/envs/data-science-py311",
+-- 		pylsp = {
+-- 			plugins = {
+-- 				pycodestyle = {
+-- 					maxLineLength = 88,
+-- 				},
+-- 			},
 -- 		},
 -- 	},
 -- })
-
-lspconfig["pylsp"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-	settings = {
-		pylsp = {
-			plugins = {
-				pycodestyle = {
-					maxLineLength = 88,
-				},
-			},
-		},
-	},
-})
 
 -- configure yaml-language server
 lspconfig["yamlls"].setup({
