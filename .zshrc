@@ -46,6 +46,8 @@ export MANPAGER='nvim +Man!'
 export PATH="/opt/homebrew/bin/:$PATH"
 export PATH="/opt/homebrew/opt/influxdb@1/bin/:$PATH"
 export PATH="$HOME/.local/share/nvim/mason/bin/:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.rye/shims/:$PATH"
 
 alias vi='nvim'
 alias vim='nvim'
