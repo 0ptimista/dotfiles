@@ -19,9 +19,13 @@ null_ls.setup({
 		--  "formatting.prettier.with({disabled_filetypes: {}})" (see null-ls docs)
 		formatting.stylua, -- lua formatter
 		formatting.black, -- python formatter
+		formatting.isort, -- python formatter
+		formatting.prettier, -- html,css,javascript formatter
 		--diagnostics.flake8.with({ extra_args = { "--max-line-length", "88" , "--extend-ignore", "E203"} }), -- python diagnostics
 		diagnostics.ruff, -- python diagnostics
+		-- diagnostics.mypy,
 	},
+
 	-- configure format on save
 	on_attach = function(current_client, bufnr)
 		if current_client.supports_method("textDocument/formatting") then

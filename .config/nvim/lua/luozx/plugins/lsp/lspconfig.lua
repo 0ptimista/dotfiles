@@ -73,7 +73,7 @@ lspconfig["pyright"].setup({
 	on_attach = on_attach,
 	-- cmd = { "pyright-langserver", "--stdio" },
 	-- filetypes = { "python" },
-	-- root_dir = lspconfig.util.root_pattern("pyproject.toml", "setup.py", "setup.cfg", "requirements.txt", ".git"),
+	root_dir = lspconfig.util.root_pattern("pyproject.toml", "setup.py", "setup.cfg", "requirements.txt", ".git"),
 	settings = {
 		python = {
 			venvPath = ".venv",
@@ -85,20 +85,6 @@ lspconfig["pyright"].setup({
 		},
 	},
 })
-
--- lspconfig["pylsp"].setup({
--- 	capabilities = capabilities,
--- 	on_attach = on_attach,
--- 	settings = {
--- 		pylsp = {
--- 			plugins = {
--- 				pycodestyle = {
--- 					maxLineLength = 88,
--- 				},
--- 			},
--- 		},
--- 	},
--- })
 
 -- configure yaml-language server
 lspconfig["yamlls"].setup({
@@ -113,3 +99,5 @@ lspconfig["yamlls"].setup({
 		},
 	},
 })
+
+lspconfig["tailwindcss"].setup({})

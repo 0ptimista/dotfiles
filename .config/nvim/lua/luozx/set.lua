@@ -66,3 +66,6 @@ opt.colorcolumn = "88"
 opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
 opt.foldlevel = 99 --open all folds as default
+
+-- LaTex
+-- vim.g.livepreview_previewer = "open -a Preview"
