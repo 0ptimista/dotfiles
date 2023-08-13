@@ -102,6 +102,12 @@ return packer.startup(function(use)
 	-- 魔法🧙
 	use("github/copilot.vim")
 
+	--Beancount
+	use("nathangrigg/vim-beancount")
+
+	-- File explore
+	use("stevearc/oil.nvim")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
