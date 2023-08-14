@@ -18,7 +18,7 @@ local on_attach = function(client, bufnr)
 	local opts = { noremap = true, silent = true, buffer = bufnr }
 
 	-- set keybinds
-	keymap.set("n", "gf", "<cmd>Lspsaga lsp_finder<CR>", opts) -- show definition, references PRESS o (for open) to jump!
+	keymap.set("n", "gf", "<cmd>Lspsaga finder<CR>", opts) -- show definition, references PRESS o (for open) to jump!
 	keymap.set("n", "gd", "<cmd>Lspsaga goto_definition<CR>", opts) -- goto definition
 	keymap.set("n", "gp", "<cmd>Lspsaga peek_definition<CR>", opts) -- see definition and make edits in window
 	keymap.set("n", "gD", "<cmd>lua vim.lsp.buf.declaration()<CR>", opts) -- got to declaration
