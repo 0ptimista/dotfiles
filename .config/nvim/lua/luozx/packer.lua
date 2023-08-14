@@ -108,6 +108,8 @@ return packer.startup(function(use)
 	-- File explore
 	use("stevearc/oil.nvim")
 
+	use("vimwiki/vimwiki")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
