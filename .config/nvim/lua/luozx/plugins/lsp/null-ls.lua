@@ -21,6 +21,7 @@ null_ls.setup({
 		formatting.black, -- python formatter
 		formatting.isort, -- python formatter
 		formatting.prettier, -- html,css,javascript formatter
+		formatting.bean_format, -- beancount formatter
 		--diagnostics.flake8.with({ extra_args = { "--max-line-length", "88" , "--extend-ignore", "E203"} }), -- python diagnostics
 		diagnostics.ruff, -- python diagnostics
 		-- diagnostics.mypy,
