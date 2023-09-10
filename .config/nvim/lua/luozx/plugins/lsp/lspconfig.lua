@@ -101,3 +101,4 @@ lspconfig["yamlls"].setup({
 })
 
 lspconfig["tailwindcss"].setup({})
+lspconfig["beancount"].setup({})
