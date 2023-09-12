@@ -52,7 +52,7 @@ lspconfig["lua_ls"].setup({
 		Lua = {
 			-- make the language server recognize "vim" global
 			diagnostics = {
-				globals = { "vim", "hs" },
+				globals = { "vim", "hs", "Candidate" },
 			},
 			workspace = {
 				-- make language server aware of runtime files
@@ -101,4 +101,8 @@ lspconfig["yamlls"].setup({
 })
 
 lspconfig["tailwindcss"].setup({})
-lspconfig["beancount"].setup({})
+lspconfig["beancount"].setup({
+	init_options = {
+		journal_file = "~/Documents/main.bean",
+	},
+})
