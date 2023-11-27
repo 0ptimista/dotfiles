@@ -82,16 +82,18 @@ cmp.setup({
 			-- vim_item.kind = string.format("%s", kind_icons[vim_item.kind])
 			-- vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind], vim_item.kind) -- This concatonates the icons with the name of the item kind
 			vim_item.menu = ({
-				nvim_lsp = "[LSP]",
 				luasnip = "[Snippet]",
+				nvim_lsp = "[LSP]",
 				buffer = "[Buffer]",
 				path = "[Path]",
+				beancount = "[Beancount]",
 			})[entry.source.name]
 			return vim_item
 		end,
 	},
 	sources = {
 		{ name = "nvim_lsp" },
+		{ name = "beancount", option = { account = "/Users/luo/Dropbox/TheBooks/2023.bean" } },
 		{ name = "buffer" },
 		{ name = "path" },
 		{ name = "luasnip" },

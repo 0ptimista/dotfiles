@@ -103,7 +103,8 @@ return packer.startup(function(use)
 	use("github/copilot.vim")
 
 	--Beancount
-	use("nathangrigg/vim-beancount")
+	use("nathangrigg/vim-beancount") -- highlight syntax
+	use("crispgm/cmp-beancount")
 
 	-- File explore
 	use("stevearc/oil.nvim")

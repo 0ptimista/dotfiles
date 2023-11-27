@@ -103,6 +103,6 @@ lspconfig["yamlls"].setup({
 lspconfig["tailwindcss"].setup({})
 lspconfig["beancount"].setup({
 	init_options = {
-		journal_file = "~/Documents/main.bean",
+		journal_file = "~/Dropbox/TheBooks/2023.bean",
 	},
 })
