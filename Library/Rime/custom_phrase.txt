@@ -12,3 +12,10 @@ U盤	upan
 up主	upzhu
 Apple	apple
 YouTube	youtube
+Apple Pay	applepay
+Pay	applepay
+MacBook Air	macbookair
+MacBook Pro	macbookpro
+Apple Watch	applewatch
+AirPods	airpods
+AirPods Pro	airpodspro
