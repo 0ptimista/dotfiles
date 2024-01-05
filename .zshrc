@@ -18,6 +18,12 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 ### 应用设置
+#tmux
+if [[ $TMUX != "" ]] then
+    export TERM="tmux-256color"
+else
+  commandexport TERM="xterm-256color"
+fi
 # bat
 export BAT_THEME="gruvbox-dark"
 
