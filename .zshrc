@@ -22,7 +22,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ $TMUX != "" ]] then
     export TERM="tmux-256color"
 else
-  commandexport TERM="xterm-256color"
+  export TERM="xterm-256color"
 fi
 # bat
 export BAT_THEME="gruvbox-dark"
@@ -49,6 +49,7 @@ export all_proxy=socks5://127.0.0.1:7890;
 export EDITOR='nvim'
 export MANPAGER='nvim +Man!'
 
+export PATH="/usr/local/bin/:$PATH"
 export PATH="/opt/homebrew/bin/:$PATH"
 export PATH="/opt/homebrew/opt/influxdb@1/bin/:$PATH"
 export PATH="$HOME/.bin/:$PATH"
@@ -66,3 +67,4 @@ alias evimrc='vi ~/.config/nvim/init.vim'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias lzgit='lazygit -g $HOME/.cfg/ -w $HOME'
 alias cls='clear'
+. "$HOME/.cargo/env"
