@@ -49,12 +49,8 @@ export all_proxy=socks5://127.0.0.1:7890;
 export EDITOR='nvim'
 export MANPAGER='nvim +Man!'
 
-export PATH="/usr/local/bin/:$PATH"
+export PATH="$HOME/.bin/:$PATH" # personal tools/scripts
 export PATH="/opt/homebrew/bin/:$PATH"
-export PATH="/opt/homebrew/opt/influxdb@1/bin/:$PATH"
-export PATH="$HOME/.bin/:$PATH"
-export PATH="$HOME/.local/share/nvim/mason/bin/:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
 
 alias vi='nvim'
 alias vim='nvim'
@@ -62,8 +58,9 @@ alias noproxy='export https_proxy=;http_proxy=;all_proxy=;'
 alias tree='eza -T'
 alias ll='eza -l --icons'
 alias ls='eza --icons'
-alias evimrc='vi ~/.config/nvim/init.vim'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias lzgit='lazygit -g $HOME/.cfg/ -w $HOME'
 alias cls='clear'
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
+eval "$(~/.local/bin/mise activate zsh)"
+. "/Users/luo/.cargo/env"
