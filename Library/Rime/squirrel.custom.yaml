@@ -395,3 +395,5 @@ patch:
         vim_mode: true
     com.apple.dt.Xcode:              # Xcode
         ascii_mode: true
+    org.cryptomator: 
+        ascii_mode: true
