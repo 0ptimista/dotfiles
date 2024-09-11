@@ -1,5 +1,7 @@
 # Rime default settings
 # encoding: utf-8
+# 不要直接修改此文件, 因为更新时会被覆盖.
+# 使用default.custom.yaml来覆盖默认设置.
 
 config_version: '0.40'
 
