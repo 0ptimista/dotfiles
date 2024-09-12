@@ -20,6 +20,8 @@ patch:
     - punct_translator
     - script_translator
     - table_translator@custom_phrase
+    - table_translator@melt_eng         # 英文输入
+    - table_translator@cn_en            # 中英混合词汇
   engine/filters:
     - simplifier@emoji_suggestion
     - simplifier
@@ -77,7 +79,26 @@ patch:
 
   recognizer/patterns/punct: "^/([0-9]0?|[A-Za-z]+)$"
 
-    
+  # 次翻译器，英文
+  melt_eng:
+    dictionary: melt_eng     # 挂载词库 melt_eng.dict.yaml
+    enable_sentence: false   # 禁止造句
+    enable_user_dict: false  # 禁用用户词典
+    initial_quality: 1.1     # 初始权重
+    comment_format:          # 自定义提示码
+      - xform/.*//           # 清空提示码   
+
+
+  # 中英混合词汇
+  cn_en:
+    dictionary: ""
+    user_dict: en_dicts/cn_en_flypy
+    db_class: stabledb
+    enable_completion: true
+    enable_sentence: false
+    initial_quality: 0.5
+    comment_format:
+      - xform/^.+$//
 
   ### 双拼使用自定义词典 custom_phrase.txt
   custom_phrase:
