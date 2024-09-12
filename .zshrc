@@ -42,10 +42,11 @@ export PROMPT_EOL_MARK='' # 防止ZSH 在末尾添加额外符号, 通常是%
 
 
 # 通用设置
-mixedPort=7890
-export https_proxy=http://127.0.0.1:$mixedPort;
-export http_proxy=http://127.0.0.1:$mixedPort;
-export all_proxy=socks5://127.0.0.1:7890;
+http_port=6152
+socks_port=6153
+export https_proxy=http://127.0.0.1:$http_port;
+export http_proxy=http://127.0.0.1:$http_port;
+export all_proxy=socks5://127.0.0.1:$socks_port;
 export EDITOR='nvim'
 export MANPAGER='nvim +Man!'
 
@@ -61,6 +62,4 @@ alias ls='eza --icons'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias lzgit='lazygit -g $HOME/.cfg/ -w $HOME'
 alias cls='clear'
-# . "$HOME/.cargo/env"
 eval "$(~/.local/bin/mise activate zsh)"
-. "/Users/luo/.cargo/env"
