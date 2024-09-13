@@ -2,6 +2,16 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Projects/
+Public/
 
 # Squirrel(rime)
 Library/Rime/build/
