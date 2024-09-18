@@ -4,6 +4,6 @@
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 local quarto = require("quarto")
 quarto.setup()
-vim.keymap.set("n", "<leader>qp", quarto.quartoPreview, { silent = true, noremap = true })
+vim.keymap.set("n", "<leader>qp", quarto.quartoPreview, { desc = "Preview", silent = true, noremap = true })
 -- Markdown Preview
 vim.keymap.set("n", "<leader>mp", "<CMD>MarkdownPreview<CR>", { desc = "Preview markdown files in browser" })

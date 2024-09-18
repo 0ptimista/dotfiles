@@ -9,7 +9,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-autosuggestions)
+plugins=(zsh-autosuggestions gitfast)
 
 # 自动补全
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
@@ -19,11 +19,11 @@ source $ZSH/oh-my-zsh.sh
 
 ### 应用设置
 #tmux
-if [[ $TMUX != "" ]] then
-    export TERM="tmux-256color"
-else
-  export TERM="xterm-256color"
-fi
+# if [[ $TMUX != "" ]] then
+#     export TERM="tmux-256color"
+# else
+#   export TERM="xterm-256color"
+# fi
 # bat
 export BAT_THEME="gruvbox-dark"
 

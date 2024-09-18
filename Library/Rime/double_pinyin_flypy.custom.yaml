@@ -20,8 +20,8 @@ patch:
     - punct_translator
     - script_translator
     - table_translator@custom_phrase
-    - table_translator@melt_eng         # 英文输入
     - table_translator@cn_en            # 中英混合词汇
+    - table_translator@melt_eng         # 英文输入
   engine/filters:
     - simplifier@emoji_suggestion
     - simplifier
