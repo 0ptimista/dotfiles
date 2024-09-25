@@ -1,54 +1,64 @@
 {
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0",
   "schemes" : [
     {
+      "pointer" : {
+        "speed" : 0.13
+      },
       "buttons" : {
         "universalBackForward" : true
       },
       "if" : {
         "device" : {
-          "category" : "mouse",
-          "serialNumber" : "294E5B1A12AC872C",
-          "productName" : "MX Master 3",
           "vendorID" : "0x46d",
-          "productID" : "0xb023"
+          "serialNumber" : "294E5B1A12AC872C",
+          "category" : "mouse",
+          "productID" : "0xb023",
+          "productName" : "MX Master 3"
         }
       },
-      "pointer" : {
-        "speed" : 0.13
-      },
       "scrolling" : {
+        "reverse" : true,
         "speed" : {
           "vertical" : 1
         },
         "distance" : {
           "vertical" : "auto"
         },
-        "reverse" : true,
         "acceleration" : 1
       }
     },
     {
-      "buttons" : {
-        "universalBackForward" : true
-      },
-      "if" : {
-        "device" : {
-          "productID" : "0xb031",
-          "productName" : "LIFT",
-          "serialNumber" : "6A29C5FB",
-          "category" : "mouse",
-          "vendorID" : "0x46d"
-        }
-      },
       "scrolling" : {
         "reverse" : {
           "vertical" : true
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1
         }
       },
       "pointer" : {
-        "speed" : 0.1
+        "speed" : 0.1,
+        "acceleration" : 2
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "vendorID" : "0x46d",
+          "productID" : "0xb031",
+          "productName" : "LIFT",
+          "serialNumber" : "6A29C5FB"
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : true
       }
     }
-  ],
-  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0"
+  ]
 }
