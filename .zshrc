@@ -63,3 +63,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias lzgit='lazygit -g $HOME/.cfg/ -w $HOME'
 alias cls='clear'
 eval "$(~/.local/bin/mise activate zsh)"
+
+. "$HOME/.cargo/env"
