@@ -1,7 +1,5 @@
 # Rime default settings
 # encoding: utf-8
-# 不要直接修改此文件, 因为更新时会被覆盖.
-# 使用default.custom.yaml来覆盖默认设置.
 
 config_version: '0.40'
 
@@ -58,7 +56,7 @@ recognizer:
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 
 ascii_composer:
-  good_old_caps_lock: true  #Caps 只切换大小写
+  good_old_caps_lock: true
   switch_key:
     Shift_L: inline_ascii
     Shift_R: commit_text

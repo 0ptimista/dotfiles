@@ -9,7 +9,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-autosuggestions gitfast)
+plugins=(zsh-autosuggestions tmux)
 
 # 自动补全
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
@@ -65,3 +65,14 @@ alias cls='clear'
 eval "$(~/.local/bin/mise activate zsh)"
 
 . "$HOME/.cargo/env"
+
+# bun
+export BUN_INSTALL="$HOME/Library/Application Support/reflex/bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# bun completions
+[ -s "/Users/luo/Library/Application Support/reflex/bun/_bun" ] && source "/Users/luo/Library/Application Support/reflex/bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/Library/Application Support/reflex/bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

@@ -28,7 +28,7 @@
 
 ---
 name: luna_pinyin
-version: "2020.08.03"
+version: "2024.02.10"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -729,6 +729,7 @@ use_preset_vocabulary: true
 㛜	you
 㛝	bei
 㛞	long
+㛟	huan
 㛣	yun
 㛤	li
 㛥	ta
@@ -2521,6 +2522,7 @@ use_preset_vocabulary: true
 㷖	zhao
 㷗	jiong
 㷘	tai
+㷛	bao
 㷟	tui
 㷠	lin
 㷡	jiong
@@ -2529,6 +2531,7 @@ use_preset_vocabulary: true
 㷤	hu
 㷤	xue
 㷦	xu
+㷧	yuan
 㷪	cui
 㷫	qing
 㷬	mo
@@ -3316,6 +3319,7 @@ use_preset_vocabulary: true
 䃜	yi
 䃝	qiao
 䃞	shu
+䃟	san
 䃠	xuan
 䃡	jin
 䃡	qin
@@ -4429,7 +4433,9 @@ use_preset_vocabulary: true
 䓦	dian
 䓧	ci
 䓨	ying
+䓪	yi
 䓫	qi
+䓬	zhuo
 䓭	cha
 䓮	mao
 䓯	du
@@ -5408,6 +5414,7 @@ use_preset_vocabulary: true
 䡿	ling
 䢀	qi
 䢁	yue
+䢂	li
 䢃	yi
 䢄	xi
 䢅	chen
@@ -5671,6 +5678,7 @@ use_preset_vocabulary: true
 䦇	ji
 䦈	jie
 䦈	zuo
+䦉	si
 䦊	niao
 䦋	ao
 䦌	chu
@@ -6426,6 +6434,7 @@ use_preset_vocabulary: true
 䰱	ling
 䰱	long
 䰲	ya
+䰳	ding
 䰴	qi
 䰵	zi
 䰷	bang
@@ -6852,6 +6861,7 @@ use_preset_vocabulary: true
 七	qi
 丄	shang
 丅	xia
+丆	han
 万	mo	0.02%
 万	wan	99.98%
 丈	zhang
@@ -6943,6 +6953,7 @@ use_preset_vocabulary: true
 么	yao	98.93%
 义	cha	99%
 义	yi	1%
+乊	yi
 之	zhi
 乌	wu
 乍	zha
@@ -6978,10 +6989,14 @@ use_preset_vocabulary: true
 乢	ge
 乢	he
 乣	jiu
+乤	xia
+乥	hu
 书	shu
+乧	dou
 乨	shi
 乩	ji
 乪	nang
+乫	jia
 乬	ju
 乭	shi
 乮	mao
@@ -6994,10 +7009,13 @@ use_preset_vocabulary: true
 乴	xue
 乵	yan
 乶	fu
+乷	sha
 乸	na
 乹	gan
 乹	qian
+乺	suo
 乻	yu
+乼	zhu
 乽	zhe
 乾	gan	21.58%
 乾	qian	78.42%
@@ -7069,6 +7087,7 @@ use_preset_vocabulary: true
 亨	heng	100%
 亨	peng	0%
 亩	mu
+亪	ye
 享	xiang
 京	jing	100%
 京	yuan	0%
@@ -7126,6 +7145,7 @@ use_preset_vocabulary: true
 仏	fu
 仐	san
 仑	lun
+仒	bing
 仓	cang
 仔	zai	55.40%
 仔	zi	44.60%
@@ -7243,7 +7263,6 @@ use_preset_vocabulary: true
 伪	wei
 伫	zhu
 伬	chi
-伬	ze
 伭	xian
 伭	xuan
 伮	nu
@@ -8450,6 +8469,7 @@ use_preset_vocabulary: true
 勾	gou
 勿	wu
 匀	yun
+匁	wen
 匃	gua
 匄	gai
 包	bao
@@ -8707,6 +8727,7 @@ use_preset_vocabulary: true
 厹	rou
 厺	qu
 去	qu
+厼	er
 厽	lei
 厾	diu
 厾	du
@@ -9489,7 +9510,8 @@ use_preset_vocabulary: true
 嗮	sai
 嗯	en
 嗯	eng
-嗰	ge
+嗰	ge	99%
+嗰	ga	1%
 嗱	na
 嗲	dia	100%
 嗲	die	0%
@@ -9899,6 +9921,7 @@ use_preset_vocabulary: true
 在	zai
 圩	wei
 圩	yu
+圩	xu
 圪	ge
 圪	yi
 圫	ao
@@ -10453,6 +10476,7 @@ use_preset_vocabulary: true
 壪	wan
 士	shi
 壬	ren
+壭	san
 壮	zhuang
 壯	zhuang
 声	sheng
@@ -10672,6 +10696,7 @@ use_preset_vocabulary: true
 妗	jin
 妘	yun
 妙	miao
+妚	fou
 妚	pei
 妚	pi
 妛	chi
@@ -12805,6 +12830,7 @@ use_preset_vocabulary: true
 总	zong
 怼	dui
 怽	mi
+怽	mo
 怾	zhi
 怿	yi
 恀	chi
@@ -13694,6 +13720,7 @@ use_preset_vocabulary: true
 拢	long
 拣	jian
 拤	ka
+拤	qia
 拥	yong
 拦	lan
 拧	ning
@@ -15126,6 +15153,7 @@ use_preset_vocabulary: true
 朦	meng
 朧	long
 木	mu
+朩	pin
 未	wei
 末	mo
 本	ben
@@ -15134,6 +15162,7 @@ use_preset_vocabulary: true
 朮	zhu	80%
 术	shu	20%
 术	zhu	80%
+朰	mu
 朱	shu	0%
 朱	zhu	100%
 朲	ren
@@ -17123,8 +17152,8 @@ use_preset_vocabulary: true
 涉	she
 涊	nian
 涋	tu
-涌	chong	0%
-涌	yong
+涌	chong
+涌	yong  0%
 涍	xiao
 涎	xian
 涎	yan
@@ -18630,6 +18659,7 @@ use_preset_vocabulary: true
 牕	chuang
 牖	you
 牗	you
+牗	yong
 牘	du
 牙	ya
 牚	cheng
@@ -18714,7 +18744,6 @@ use_preset_vocabulary: true
 犛	mao
 犜	dun
 犝	tong
-犞	jiao
 犞	qiao
 犞	se
 犟	jiang
@@ -19279,7 +19308,7 @@ use_preset_vocabulary: true
 瑥	wen
 瑦	wu
 瑧	jin
-瑧	qin
+瑧	zhen
 瑨	jin
 瑩	ying
 瑪	ma
@@ -19560,6 +19589,7 @@ use_preset_vocabulary: true
 畐	fu
 畑	tian
 畒	mu
+畓	duo
 畔	ban	0%
 畔	pan	100%
 畕	jiang
@@ -19917,6 +19947,7 @@ use_preset_vocabulary: true
 癱	tan
 癲	dian
 癳	luo
+癴	luan
 癴	lvan
 癵	luan
 癵	lvan
@@ -22355,6 +22386,7 @@ use_preset_vocabulary: true
 繊	xian
 繋	xi
 繌	sha
+繌	zong
 繍	xiu
 繎	ran
 繏	xu
@@ -22653,6 +22685,7 @@ use_preset_vocabulary: true
 罓	wang
 罔	wang
 罕	han
+罖	luo
 罗	luo
 罘	fou
 罘	fu
@@ -22857,7 +22890,6 @@ use_preset_vocabulary: true
 翴	lian
 翵	hou
 翵	qu
-翵	yu
 翶	ao
 翷	lin
 翸	pen
@@ -24605,8 +24637,10 @@ use_preset_vocabulary: true
 蕭	xiao
 蕮	xi
 蕯	sa
+蕰	wen
 蕰	yun
 蕱	shao
+蕱	shuo
 蕲	qi
 蕳	jian
 蕴	yun	90.36%
@@ -24761,6 +24795,7 @@ use_preset_vocabulary: true
 藦	mo
 藧	huan
 藨	biao
+藨	pao
 藩	fan
 藪	sou
 藫	tan
@@ -24873,6 +24908,7 @@ use_preset_vocabulary: true
 虇	quan
 虈	xiao
 虉	yi
+虊	luan
 虊	lvan
 虋	men
 虌	bie
@@ -25281,6 +25317,7 @@ use_preset_vocabulary: true
 蝿	ying
 螀	jiang
 螁	tui
+螁	shui
 螁	tun
 螂	lang
 螂	liang
@@ -25937,7 +25974,7 @@ use_preset_vocabulary: true
 覂	feng
 覃	qin	80%
 覃	tan	10%
-覃	xun	10%
+覃	yan	10%
 覅	fiao
 覆	fu
 覇	ba
@@ -26488,7 +26525,6 @@ use_preset_vocabulary: true
 謠	yao
 謡	yao
 謢	hu
-謢	zhi
 謣	xu
 謣	yu
 謤	biao
@@ -27225,7 +27261,6 @@ use_preset_vocabulary: true
 趃	die
 趄	ju
 趄	qie
-趄	qu
 超	chao
 趆	di
 趇	se
@@ -27922,6 +27957,8 @@ use_preset_vocabulary: true
 边	bian
 辺	bian
 辻	shi
+込	ru	99%
+込	yu	1%
 辽	liao
 达	da
 达	ta
@@ -28535,7 +28572,6 @@ use_preset_vocabulary: true
 醭	bu
 醭	pu
 醮	jiao
-醯	hai
 醯	xi
 醰	tan
 醱	po
@@ -29730,7 +29766,9 @@ use_preset_vocabulary: true
 閧	hong
 閨	gui
 閩	min
-閪	se
+閪	hai
+閪	hei
+閪	xi
 閫	kun
 閬	gen
 閬	lang
@@ -29987,7 +30025,6 @@ use_preset_vocabulary: true
 陶	tao	99.94%
 陶	yao	0.06%
 陷	xian
-陷	xuan
 陸	liu	6.25%
 陸	lu	93.75%
 陹	sheng
@@ -30138,6 +30175,7 @@ use_preset_vocabulary: true
 雩	yu
 雪	xue
 雫	na
+雫	xia
 雬	fou
 雬	fu
 雭	se
@@ -30389,6 +30427,7 @@ use_preset_vocabulary: true
 鞲	gou
 鞲	jiang
 鞳	ta
+鞴	bei
 鞴	fu
 鞵	hai
 鞵	xie
@@ -30723,7 +30762,6 @@ use_preset_vocabulary: true
 飇	biao
 飈	biao
 飉	liao
-飉	liu
 飊	biao
 飋	se
 飌	feng
@@ -32794,6 +32832,7 @@ use_preset_vocabulary: true
 鿃	shan
 鿫	ao
 鿬	tian
+鿽	zhai
 𠀀	he
 𠀁	qi
 𠀃	ji
@@ -33301,6 +33340,7 @@ use_preset_vocabulary: true
 𠝬	sou
 𠝲	kan
 𠝳	yuan
+𠝹	jie
 𠝽	chou
 𠝿	suo
 𠞀	tu
@@ -33654,6 +33694,8 @@ use_preset_vocabulary: true
 𠮳	ying
 𠮴	yang
 𠮵	mang
+𠮶	ge	99%
+𠮶	ga	1%
 𠮽	long
 𠮿	sa
 𠮿	san
@@ -33715,6 +33757,7 @@ use_preset_vocabulary: true
 𠰽	rong
 𠰾	ju
 𠱀	bo
+𠱁	dang
 𠱐	yu
 𠱑	dou
 𠱓	gui
@@ -33743,6 +33786,7 @@ use_preset_vocabulary: true
 𠱯	zuo
 𠱲	na
 𠱳	yun
+𠱸	chen
 𠲊	xie
 𠲋	zui
 𠲌	shu
@@ -33781,6 +33825,7 @@ use_preset_vocabulary: true
 𠳋	qian
 𠳌	qia
 𠳎	si
+𠳏	che
 𠳐	bang
 𠳬	jing
 𠳭	ke
@@ -33818,6 +33863,7 @@ use_preset_vocabulary: true
 𠴻	tuo
 𠴼	dao
 𠴾	na
+𠵝	ya
 𠵠	zhai
 𠵣	ya
 𠵦	wu
@@ -33830,6 +33876,7 @@ use_preset_vocabulary: true
 𠵭	se
 𠵮	fen
 𠵯	gua
+𠵱	yi
 𠵳	po
 𠵷	xuan
 𠵸	han
@@ -33928,6 +33975,7 @@ use_preset_vocabulary: true
 𠹤	wei
 𠹥	da
 𠹦	pi
+𠹶	peng
 𠺐	huan
 𠺒	xi
 𠺔	pen
@@ -33946,6 +33994,7 @@ use_preset_vocabulary: true
 𠻏	zu
 𠻐	luo
 𠻗	li
+𠻘	jue
 𠻙	he
 𠻚	mo
 𠻜	lv
@@ -33966,6 +34015,7 @@ use_preset_vocabulary: true
 𠻬	tu
 𠻱	ling
 𠻴	lang
+𠻹	tian
 𠼖	lan
 𠼗	zan
 𠼘	wu
@@ -33980,7 +34030,10 @@ use_preset_vocabulary: true
 𠼩	lun
 𠼪	yi
 𠼬	shang
+𠼭	bo
+𠼮	wei
 𠼻	ji
+𠽌	xue
 𠽜	yi
 𠽝	nin
 𠽡	hui
@@ -34048,6 +34101,7 @@ use_preset_vocabulary: true
 𠿤	guo
 𠿥	gui
 𠿥	kui
+𠿪	jia
 𡀑	zhou
 𡀔	lou
 𡀔	lu
@@ -34078,6 +34132,7 @@ use_preset_vocabulary: true
 𡁓	lie
 𡁔	jing
 𡁕	za
+𡁜	huo
 𡁧	zang
 𡁨	dui
 𡁪	ji
@@ -34086,6 +34141,7 @@ use_preset_vocabulary: true
 𡁱	xi
 𡁳	zhan
 𡁴	tuan
+𡁻	zhao
 𡂊	yu
 𡂏	lie
 𡂒	zhi
@@ -34108,6 +34164,7 @@ use_preset_vocabulary: true
 𡂫	peng
 𡂭	zhe
 𡂿	ou
+𡃁	liang
 𡃂	xie
 𡃃	ji
 𡃄	lai
@@ -34120,6 +34177,7 @@ use_preset_vocabulary: true
 𡃦	lin
 𡃩	gui
 𡃳	xing
+𡃶	xi
 𡃷	li
 𡃸	ci
 𡄇	qing
@@ -34612,6 +34670,7 @@ use_preset_vocabulary: true
 𡞫	nai
 𡞭	ni
 𡞯	ku
+𡞵	huan
 𡞾	nen
 𡟍	ge
 𡟑	hou
@@ -34725,6 +34784,7 @@ use_preset_vocabulary: true
 𡥶	ju
 𡥶	ru
 𡥸	ming
+𡥼	mie
 𡥽	li
 𡥿	zhong
 𡦁	xu
@@ -34967,6 +35027,7 @@ use_preset_vocabulary: true
 𡲕	ti
 𡲗	jue
 𡲚	qiu
+𡲢	qie
 𡲣	jiang
 𡲪	yun
 𡲬	qu
@@ -35345,6 +35406,7 @@ use_preset_vocabulary: true
 𢂺	qian
 𢂼	yi
 𢃀	wu
+𢃇	li
 𢃍	bei
 𢃎	huo
 𢃏	cong
@@ -36243,6 +36305,7 @@ use_preset_vocabulary: true
 𢪷	xiang
 𢪼	nao
 𢪾	zhang
+𢫏	kan
 𢫐	jie
 𢫓	nu
 𢫔	quan
@@ -36315,6 +36378,7 @@ use_preset_vocabulary: true
 𢯅	jue
 𢯅	lu
 𢯉	xie
+𢯊	di
 𢯋	fu
 𢯌	zhai
 𢯩	ze
@@ -36351,6 +36415,8 @@ use_preset_vocabulary: true
 𢱈	jia
 𢱉	wai
 𢱌	jia
+𢱑	wa
+𢱕	da
 𢱟	chan
 𢱟	chi
 𢱡	suo
@@ -36421,7 +36487,9 @@ use_preset_vocabulary: true
 𢵇	yang
 𢵈	jian
 𢵈	zhan
+𢵌	dui
 𢵥	zao
+𢵧	jian
 𢶀	chuai
 𢶀	zhuai
 𢶃	fan
@@ -37128,6 +37196,7 @@ use_preset_vocabulary: true
 𣚧	hao
 𣚩	chi
 𣚪	dun
+𣚺	xiang
 𣛓	bo
 𣛔	ji
 𣛕	chua
@@ -38168,6 +38237,7 @@ use_preset_vocabulary: true
 𤒦	yan
 𤒻	ta
 𤓑	ji
+𤓓	luo
 𤓔	xi
 𤓕	zhi
 𤓚	xi
@@ -38987,6 +39057,7 @@ use_preset_vocabulary: true
 𤶲	xing
 𤶳	jiao
 𤶴	shen
+𤶸	na
 𤷀	wang
 𤷁	bei
 𤷂	fei
@@ -39020,6 +39091,7 @@ use_preset_vocabulary: true
 𤷢	ju
 𤷤	xiao
 𤷦	jing
+𤷪	meng
 𤷹	wai
 𤷻	nao
 𤷼	xiang
@@ -39110,6 +39182,7 @@ use_preset_vocabulary: true
 𤺖	min
 𤺗	ji
 𤺗	qi
+𤺧	zeng
 𤺪	shan
 𤺫	suo
 𤺷	ji
@@ -39361,6 +39434,7 @@ use_preset_vocabulary: true
 𥄝	mian
 𥄦	dan
 𥄨	chou
+𥄫	ji
 𥄱	fei
 𥄲	mie
 𥄴	jue
@@ -39378,6 +39452,7 @@ use_preset_vocabulary: true
 𥄿	yi
 𥅁	zuo
 𥅄	nu
+𥅈	li
 𥅑	dian
 𥅒	fan
 𥅓	yi
@@ -39400,6 +39475,7 @@ use_preset_vocabulary: true
 𥅸	jing
 𥅺	xu
 𥅻	chong
+𥅾	chuang
 𥆅	jiang
 𥆆	mou
 𥆉	yu
@@ -41016,6 +41092,7 @@ use_preset_vocabulary: true
 𦉉	liu
 𦉎	sui
 𦉐	zhu
+𦉘	cheng
 𦉙	bian
 𦉝	xin
 𦉟	ya
@@ -41565,6 +41642,7 @@ use_preset_vocabulary: true
 𦟃	zang
 𦟄	sang
 𦟄	sao
+𦟌	jian
 𦟓	tun
 𦟔	zhi
 𦟕	wen
@@ -41786,10 +41864,12 @@ use_preset_vocabulary: true
 𦧮	jia
 𦧯	qi
 𦧱	ta
+𦧲	lei
 𦧴	tan
 𦧵	hua
 𦧸	zhuan
 𦧹	hua
+𦧺	lai
 𦧼	lan
 𦨆	zun
 𦨇	yi
@@ -44007,6 +44087,7 @@ use_preset_vocabulary: true
 𧾻	jiu
 𧾽	ji
 𧾾	ji
+𧿁	yue
 𧿅	xi
 𧿆	pang
 𧿈	kuang
@@ -44160,6 +44241,7 @@ use_preset_vocabulary: true
 𨃤	kao
 𨃤	qiao
 𨃨	zhan
+𨃩	shan
 𨃭	zu
 𨃯	zhi
 𨃰	yan
@@ -44256,6 +44338,7 @@ use_preset_vocabulary: true
 𨇼	luan
 𨇽	luo
 𨈀	dian
+𨈇	lan
 𨈈	die
 𨈊	wan
 𨈋	yue
@@ -44352,6 +44435,7 @@ use_preset_vocabulary: true
 𨋟	he
 𨋠	rong
 𨋡	gui
+𨋢	li
 𨋥	bi
 𨋦	xi
 𨋧	ju
@@ -45280,7 +45364,9 @@ use_preset_vocabulary: true
 𨳊	jiu
 𨳋	ji
 𨳌	zhen
+𨳍	qi
 𨳑	ting
+𨳒	diao
 𨳔	men
 𨳕	yue
 𨳗	zhong
@@ -47146,7 +47232,6 @@ use_preset_vocabulary: true
 𩭳	huo
 𩭷	min
 𩭺	fu
-𬌗	he
 𩭼	bao
 𩭽	ke
 𩭾	mao
@@ -47589,6 +47674,7 @@ use_preset_vocabulary: true
 𩽼	hun
 𩽽	zha
 𩽾	an
+𩾀	gu
 𩾁	qiu
 𩾂	chou
 𩾃	mian
@@ -48083,6 +48169,7 @@ use_preset_vocabulary: true
 𪎉	xian
 𪎊	chao
 𪎋	tie
+𪎌	lai
 𪎒	shuo
 𪎔	mi
 𪎗	mi
@@ -48552,376 +48639,377 @@ use_preset_vocabulary: true
 𫛸	ti
 
 #Unicode 7.0
-璴	chu
-鰰	shen
-舮	lu
-櫊	ge
-篒	shi
-凪	zhi
-糀	hua
-灐	ying
-瓲	wa
-鎆	qian
-鞆	bing
-捤	wei
-僲	xian
-炞	bian
-垰	ka
-橸	jing
-璤	hui
-蔶	ze
-溄	feng
-膤	xue
-硘	qing
-苆	qie
-魞	ba
-萢	pao
-郒	lang
-鎾	wen
-囎	zen
-敾	shan
-桞	liu
-鮴	xiu
-邜	wan
-羪	yang
-駲	zhou
-礢	yang
-橲	xi
-熖	yan
-侤	ta
-嗴	qiang
-褜	pao
-嵶	ruo
-橴	zi
-琒	feng
-灜	ying
-巬	pu
-癦	me
-毶	san
-垪	bing
-嬶	bi
-楾	quan
-鈨	yuan
-鞐	qia
-揼	beng
-枦	lu
-茐	cong
-櫤	jiang
-鶎	zun
-瀮	ling
-荢	yu
-罀	zhao
-溂	la
-婲	hua
-橺	jian
-鋲	bing
-纐	jiao
-枤	duo
-蟐	chang
-鱜	xiang
-慐	gong
-幤	bi
-蓜	pei
-鱪	shu
-躮	fen
-杦	jiu
-圦	kuai
-杤	wan
-鏲	qian
-迲	qu
-粐	hu
-掶	geng
-竔	sheng
-嚒	me
-贌	pu
-椬	yi
-硴	hua
-樰	xue
-錺	fang
-裄	xing
-匂	bi
-鵆	heng
-垊	min
-疂	die
-糘	jia
-鯲	yu
-鰚	xuan
-籎	yi
-鳰	ru
-颪	gua
-蘰	man
-螦	sao
-哘	xing
-鮘	dai
-圸	shan
-誮	hua
-闎	quan
-鋴	zhen
-軈	ying
-囖	lo
-笂	wan
-咜	ta
-𠦌	xi
-陦	dao
-粂	zhai
-塀	ping
-挘	lie
-氞	bin
-磮	lun
-嫲	ma
-塰	hai
-蠴	shu
-遤	ma
-嵜	ti
-鵤	jiao
-佦	shi
-埖	hua
-牜	niu
-屲	wa
-濸	cang
-躾	mei
-煀	wei
-鵈	e
-椦	quan
-溊	xia
-爘	can
-徔	zhi
-栆	zao
-缼	qi
-聢	ding
-潈	zong
-槞	long
-爎	liao
-汢	tu
-煶	shi
-氺	shui
-扖	ru
-屶	dao
-閖	shui
-𩾇	hu
-脌	nin
-蘒	qiu
-噺	xin
-熴	kun
-衐	qu
-傦	gu
-椨	fu
-枠	zui
-迚	zhong
-攚	ying
-鰘	shi
-紦	ba
-艠	deng
-縨	huang
-櫦	qing
-嶶	wei
-覄	fu
-堒	kun
-篐	gu
-閊	shan
-杢	jiang
-澚	yu
-鎺	zu
-墸	zhu
-佨	bao
-怺	yong
-鮲	fu
-榌	pi
-艔	dou
-椚	men
-鑦	xian
-梺	xia
-鯎	cheng
-墶	da
-鱰	shu
-樮	yan
-酜	fu
-鯐	zou
-遖	nan
-籂	shi
-鮖	shi
-欌	cang
-筺	kuang
-轌	xue
-褄	qi
-萞	bi
-岼	ping
-厁	san
-竏	qian
-簯	qi
-圷	xia
-粏	tai
-璍	hua
-薭	bai
-釻	qiu
-欍	jiu
-籏	qi
-鯱	hu
-鈩	lu
-凩	mu
-筽	o
-壥	chan
-殱	jian
-椣	dian
-螧	qi
-橻	chu
-蒅	ran
-橵	san
-錻	wu
-絋	kuang
-恷	xiao
-脋	xie
-梻	fo
-曻	sheng
-鱫	ai
-楿	xiang
-緕	qi
-藵	bao
-籡	qie
-鴫	tian
-墛	wei
-擝	meng
-簗	liang
-鵥	pan
-簱	qi
-爳	han
-愥	ying
-孧	you
-奍	yang
-鱛	zeng
-鶍	yi
-粭	he
-瀭	shu
-蟵	chu
-魹	mo
-倿	qie
-縅	wei
-穃	rong
-櫵	jiao
-彁	ge
-榋	chu
-墹	jian
-椡	dao
-鯳	di
-謃	xing
-毟	lie
-襅	bi
-逧	gu
-樭	ji
-竓	hao
-嶿	ru
-笹	ti
-竕	fen
-欕	yan
-尡	kun
-欟	guang
-繧	yun
-垳	hang
-杁	ru
-巭	pu
-穝	zui
-襷	ju
-椛	hua
-壗	jin
-凧	zheng
-挧	yu
-潉	kun
-鎽	feng
-萡	bo
-唥	lang
-嚡	hai
-彅	jian
-碵	tian
-鈫	wen
-酛	yuan
-碷	dun
-禙	bei
-琑	suo
-烥	chen
-莵	tu
-砛	jin
-渏	qi
-竡	bai
-夑	xie
-畩	yi
-椩	geng
-獇	qiang
-鮱	lao
-朥	lao
-涥	heng
-萙	zhen
-抣	yun
-艝	xue
-滧	xiao
-虅	teng
-罉	cang
-裃	ka
-儏	can
-鏱	zhang
-鮗	dong
-錿	hu
-窧	zhuo
-躻	kong
-幥	zhang
-砿	kuang
-鑧	kuan
-砽	yong
-煷	liang
-珯	lao
-鐣	zhang
-鯑	xi
-炿	zhou
-鶫	dong
-鯏	li
-掵	ming
-燝	jing
-辷	yi
-嚑	xun
-澝	ning
-杣	shan
-粩	lao
-嵵	shi
-濹	me
-簓	diao
-峅	bian
-躵	ren
-聓	xu
-𦛨	lao
-鵇	nian
-螩	tiao
-幉	die
-枩	song
-鏯	shuang
-軅	yan
-燵	da
-銯	si
-掹	meng
-靍	he
-笽	min
-硓	lao
-廭	ji
-椙	chang
-桝	jie
-綛	ren
-禣	fu
 㐵	ru
-榁	shi
-鑓	qian
-蓙	zuo
-橳	sheng
-兯	han
-焹	wang
-汣	jiu
-琻	jin
-暃	fei
-堏	fang
-鱩	lei
-𣐤	jiu
-槝	dao
-珱	ying
-屷	hui
-竍	shi
+佦	shi
+佨	bao
+侤	ta
 俧	zhi
+倿	qie
+傦	gu
+僲	xian
+儏	can
+兯	han
+凧	zheng
+凩	mu
+凪	zhi
+匂	bi
+厁	san
+咜	ta
+哘	xing
+唥	lang
+嗴	qiang
+噺	xin
+嚑	xun
+嚒	me
+嚡	hai
+囎	zen
+囖	lo
+圦	kuai
+圷	xia
+圸	shan
+垊	min
+垪	bing
+垰	ka
+垳	hang
+埖	hua
+堏	fang
+堒	kun
+塀	ping
+塰	hai
+墛	wei
+墶	da
+墸	zhu
+墹	jian
+壗	jin
+壥	chan
+夑	xie
+奍	yang
+婲	hua
+嫲	ma
+嬶	bi
+孧	you
+尡	kun
+屲	wa
+屶	dao
+屷	hui
+岼	ping
+峅	bian
+嵜	ti
+嵵	shi
+嵶	ruo
+嶶	wei
+嶿	ru
+巬	pu
+巭	pu
+幉	die
+幤	bi
+幥	zhang
+廭	ji
+彁	ge
+彅	jian
+徔	zhi
+怺	yong
+恷	xiao
+愥	ying
+慐	gong
+扖	ru
+抣	yun
+挘	lie
+挧	yu
+捤	wei
+掵	ming
+掶	geng
+掹	meng
+揼	beng
+擝	meng
+攚	ying
+敾	shan
+暃	fei
+曻	sheng
+朥	lao
+杁	ru
+杢	jiang
+杣	shan
+杤	wan
+杦	jiu
+枠	zui
+枤	duo
+枦	lu
+枩	song
+栆	zao
+桝	jie
+桞	liu
+梺	xia
+梻	fo
+椙	chang
+椚	men
+椛	hua
+椡	dao
+椣	dian
+椦	quan
+椨	fu
+椩	geng
+椬	yi
+楾	quan
+楿	xiang
+榁	shi
+榋	chu
+榌	pi
+槝	dao
+槞	long
+樭	ji
+樮	yan
+樰	xue
+橲	xi
+橳	sheng
+橴	zi
+橵	san
+橸	jing
+橺	jian
+橻	chu
+櫊	ge
+櫤	jiang
+櫦	qing
+櫵	jiao
+欌	cang
+欍	jiu
+欕	yan
+欟	guang
+殱	jian
+毟	lie
+毶	san
+氞	bin
+氺	shui
+汢	tu
+汣	jiu
+涥	heng
+渏	qi
+溂	la
+溄	feng
+溊	xia
+滧	xiao
+潈	zong
+潉	kun
+澚	yu
+澝	ning
+濸	cang
+濹	me
+瀭	shu
+瀮	ling
+灐	ying
+灜	ying
+炞	bian
+炿	zhou
+烥	chen
+焹	wang
+煀	wei
+煶	shi
+煷	liang
+熖	yan
+熴	kun
+燝	jing
+燵	da
+爎	liao
+爘	can
+爳	han
+牜	niu
+獇	qiang
+珯	lao
+珱	ying
+琑	suo
+琒	feng
+琻	jin
+璍	hua
+璤	hui
+璴	chu
+瓲	wa
+畩	yi
+疂	die
+癦	me
+砛	jin
+砽	yong
+砿	kuang
+硓	lao
+硘	qing
+硴	hua
+碵	tian
+碷	dun
+磮	lun
+礢	yang
+禙	bei
+禣	fu
+穃	rong
+穝	zui
+窧	zhuo
+竍	shi
+竏	qian
+竓	hao
+竔	sheng
+竕	fen
+竡	bai
+笂	wan
+笹	ti
+笽	min
+筺	kuang
+筽	o
+篐	gu
+篒	shi
+簓	diao
+簗	liang
+簯	qi
+簱	qi
+籂	shi
+籎	yi
+籏	qi
+籡	qie
+粂	zhai
+粏	tai
+粐	hu
+粩	lao
+粭	he
+糀	hua
+糘	jia
+紦	ba
+絋	kuang
+綛	ren
+緕	qi
+縅	wei
+縨	huang
+繧	yun
+纐	jiao
+缼	qi
+罀	zhao
+罉	cang
+羪	yang
+聓	xu
+聢	ding
+脋	xie
+脌	nin
+膤	xue
+舮	lu
+艔	dou
+艝	xue
+艠	deng
+苆	qie
+茐	cong
+荢	yu
+莵	tu
+萙	zhen
+萞	bi
+萡	bo
+萢	pao
+蒅	ran
+蓙	zuo
+蓜	pei
+蔶	ze
+薭	bai
+藵	bao
+蘒	qiu
+蘰	man
+虅	teng
+螦	sao
+螧	qi
+螩	tiao
+蟐	chang
+蟵	chu
+蠴	shu
+衐	qu
+裃	ka
+裄	xing
+褄	qi
+褜	pao
+襅	bi
+襷	ju
+覄	fu
+誮	hua
+謃	xing
+贌	pu
+躮	fen
+躵	ren
+躻	kong
+躾	mei
+軅	yan
+軈	ying
+轌	xue
+辷	yi
+迚	zhong
+迲	qu
+逧	gu
+遖	nan
+遤	ma
+邜	wan
+郒	lang
+酛	yuan
+酜	fu
+釻	qiu
+鈨	yuan
+鈩	lu
+鈫	wen
+銯	si
+鋲	bing
+鋴	zhen
+錺	fang
+錻	wu
+錿	hu
+鎆	qian
+鎺	zu
+鎽	feng
+鎾	wen
+鏯	shuang
+鏱	zhang
+鏲	qian
+鐣	zhang
+鑓	qian
+鑦	xian
+鑧	kuan
+閊	shan
+閖	shui
+闎	quan
+陦	dao
+靍	he
+鞆	bing
+鞐	qia
+颪	gua
+駲	zhou
+魞	ba
+魹	mo
+鮖	shi
+鮗	dong
+鮘	dai
+鮱	lao
+鮲	fu
+鮴	xiu
+鯎	cheng
+鯏	li
+鯐	zou
+鯑	xi
+鯱	hu
+鯲	yu
+鯳	di
+鰘	shi
+鰚	xuan
+鰰	shen
+鱛	zeng
+鱜	xiang
+鱩	lei
+鱪	shu
+鱫	ai
+鱰	shu
+鳰	ru
+鴫	tian
+鵆	heng
+鵇	nian
+鵈	e
+鵤	jiao
+鵥	pan
+鶍	yi
+鶎	zun
+鶫	dong
+𠦌	xi
+𣐤	jiu
+𦛨	lao
+𩾇	hu
+𬌗	he
 𰻞	biang
 
 #以下爲詞組
@@ -49539,6 +49627,7 @@ use_preset_vocabulary: true
 之重	zhi zhong
 之長	zhi chang
 乍入蘆圩	zha ru lu yu
+乍入蘆圩	zha ru lu wei
 乍暖還寒	zha nuan huan han
 乍熟	zha shu
 乏地	fa di
@@ -51912,6 +52001,7 @@ use_preset_vocabulary: true
 叫囂	jiao xiao
 叫地地不靈	jiao di di bu ling
 叫聒	jiao gua
+叫聒	jiao guo
 召南	shao nan
 召棠	shao tang
 召父杜母	shao fu du mu
@@ -52360,6 +52450,7 @@ use_preset_vocabulary: true
 哏毒	hen du
 員弁	yuan bian
 哤聒	mang gua
+哤聒	mang guo
 哥倆好	ge lia hao
 哦呀	o ya
 哦呵	o he
@@ -52649,6 +52740,7 @@ use_preset_vocabulary: true
 嘁哩喀喳	qi li ka cha
 嘁嘁喳喳	qi qi cha cha
 嘈聒	cao gua
+嘈聒	cao guo
 嘉南大圳	jia nan da zun
 嘉肴	jia yao
 嘉言善行	jia yan shan xing
@@ -52714,6 +52806,7 @@ use_preset_vocabulary: true
 器皿	qi min
 器重	qi zhong
 噪聒	zao gua
+噪聒	zao guo
 噪音音樂	zao yin yin yue
 噫吁戲	yi xu xi
 噯喲	ai yao
@@ -52940,9 +53033,13 @@ use_preset_vocabulary: true
 在莒	zai ju
 在行	zai hang
 圩堤	yu di
+圩堤	wei di
 圩堤	yu ti
+圩堤	wei ti
 圩子	yu zi
+圩子	wei zi
 圩田	yu tian
+圩田	wei tian
 圭臬	gui nie
 圭角	gui jiao
 圮剝	pi bo
@@ -54089,7 +54186,6 @@ use_preset_vocabulary: true
 婆藪槃豆法師傳	po sou pan dou fa shi zhuan
 婆那娑	po nuo suo
 婉娩	wan wan
-婉孌	wan lvan
 婐㛂	e nuo
 婑媠	wo tuo
 婚姻失調	hun yin shi tiao
@@ -54682,7 +54778,7 @@ use_preset_vocabulary: true
 就行	jiu xing
 就要扎腳	jiu yao zha jiao
 尷尬	gan ga
-尷尬	jian jie
+尷尬	jian jie	0%
 尷尬局面	gan ga ju mian
 尸居龍見	shi ju long xian
 尺寸之地	chi cun zhi di
@@ -55298,6 +55394,7 @@ use_preset_vocabulary: true
 強敵環伺	qiang di huan si
 強盛	qiang sheng
 強聒不舍	qiang gua bu she
+強聒不舍	qiang guo bu she
 強行	qiang xing
 強行法	qiang xing fa
 強行軍	qiang xing jun
@@ -55708,6 +55805,7 @@ use_preset_vocabulary: true
 急管繁絃	ji guan fan xian
 急絃	ji xian
 急聒	ji gua
+急聒	ji guo
 急脈緩受	ji mai huan shou
 急脈緩受	ji mo huan shou
 急行軍	ji xing jun
@@ -55878,6 +55976,7 @@ use_preset_vocabulary: true
 惡露	e lu
 惱懆	nao cao
 惱聒	nao gua
+惱聒	nao guo
 想什麼	xiang shen me
 想度	xiang duo
 惹禍招愆	re huo zhao qian
@@ -56005,7 +56104,6 @@ use_preset_vocabulary: true
 憑藉	ping jie
 憔悴	qiao cui
 憔慮	qiao lv
-憤怒痙攣	fen nu jing lvan
 憤愾	fen kai
 憤懣	fen men
 憤薄	fen bo
@@ -56698,8 +56796,6 @@ use_preset_vocabulary: true
 拗蠻	ao man
 拗體	ao ti
 拗體詩	ao ti shi
-拘攣	ju lvan
-拘攣補衲	ju lvan bu na
 拙著	zhuo zhu
 拚卻	pan que
 拚命	pan ming
@@ -56745,7 +56841,6 @@ use_preset_vocabulary: true
 拱手垂裳	gong shou chui chang
 拱手投降	gong shou tou xiang
 拱手而降	gong shou er xiang
-拳攣	quan lvan
 拴搐豔段	shuan chu yan duan
 拴着	shuan zhe
 拶子	zan zi
@@ -57442,10 +57537,8 @@ use_preset_vocabulary: true
 攢蹄	cuan ti
 攢蹙	cuan cu
 攢露	cuan lou
-攣弱	lvan ruo
+攣攣	luan luan
 攣攣	lvan lvan
-攣踠	lvan wan
-攣躄	lvan bi
 攤薄	tan bo
 攤還	tan huan
 攧攧仆仆	dian dian pu pu
@@ -59991,7 +60084,7 @@ use_preset_vocabulary: true
 洲際飛彈	zhou ji fei dan
 洴澼絖	ping pi kuang
 洴澼藥	ping pi yao
-洶涌澎湃	xiong yong peng pai
+洶湧澎湃	xiong yong peng pai
 洸洋	guang yang
 洸洸	guang guang
 洸洸	huang huang
@@ -60602,6 +60695,7 @@ use_preset_vocabulary: true
 澹蕩	dan dang
 澹話	dan hua
 激聒	ji gua
+激聒	ji guo
 濁醪	zhuo lao
 濃妝淡抹	nong zhuang dan mo
 濃妝豔抹	nong zhuang yan mo
@@ -60769,6 +60863,7 @@ use_preset_vocabulary: true
 焯爍	zhuo shuo
 焯著	zhuo zhu
 煎聒	jian gua
+煎聒	jian guo
 煖和	nuan huo
 煖房	nuan fang
 煖爐	nuan lu
@@ -60891,7 +60986,6 @@ use_preset_vocabulary: true
 熱火朝天	re huo chao tian
 熱爪哇	re zhao wa
 熱爪哇	re zhua wa
-熱痙攣	re jing lvan
 熱血	re xie
 熱血	re xue
 熱血沸騰	re xue fei teng
@@ -61737,8 +61831,6 @@ use_preset_vocabulary: true
 病理解剖	bing li jie pou
 病重	bing zhong
 病革	bing ji
-痙攣	jing lvan
-痙攣派	jing lvan pai
 痛惡	tong wu
 痛覺	tong jue
 痲痹不了	ma bi bu liao
@@ -62439,6 +62531,7 @@ use_preset_vocabulary: true
 碇泊區	ding bo qu
 碎屑	sui xie
 碎聒	sui gua
+碎聒	sui guo
 碑碣	bei jie
 碑趺	bei fu
 碓房	dui fang
@@ -62508,12 +62601,7 @@ use_preset_vocabulary: true
 社稷爲墟	she ji wei xu
 社長	she zhang
 祁奚薦仇	qi xi jian chou
-祇好	zhi hao
-祇是	zhi shi
-祇有	zhi you
 祇洹精舍	qi yuan jing she
-祇管	zhi guan
-祇要	zhi yao
 祓濯	fu zhuo
 祓禊	fu xi
 祓除	fu chu
@@ -63202,7 +63290,9 @@ use_preset_vocabulary: true
 給足	ji zu
 給養	ji yang
 絮絮聒聒	xu xu gua gua
+絮絮聒聒	xu xu guo guo
 絮聒	xu gua
+絮聒	xu guo
 統括	tong gua
 統括	tong kuo
 統率	tong shuai
@@ -63245,6 +63335,7 @@ use_preset_vocabulary: true
 綜括	zong kuo
 綝纚	lin shi
 綠地	lv di
+綠林	lu lin
 綠耳	lu er
 綠色行銷	lv se xing xiao
 綠螘	lu yi
@@ -63776,17 +63867,29 @@ use_preset_vocabulary: true
 聆樂	ling yue
 聊以塞責	liao yi se ze
 聐聐聒聒	ya ya gua gua
+聐聐聒聒	ya ya guo guo
 聐聒	ya gua
+聐聒	ya guo
 聒噪	gua zao
+聒噪	guo zao
 聒天	gua tian
+聒天	guo tian
 聒子	gua zi
+聒子	guo zi
 聒擾	gua rao
+聒擾	guo rao
 聒氣	gua qi
+聒氣	guo qi
 聒絮	gua xu
+聒絮	guo xu
 聒耳	gua er
+聒耳	guo er
 聒聒	gua gua
+聒聒	guo guo
 聒聒叫	gua gua jiao
+聒聒叫	guo guo jiao
 聒躁	gua zao
+聒躁	guo zao
 聖地	sheng di
 聖地牙哥	sheng di ya ge
 聖德懿行	sheng de yi xing
@@ -64747,6 +64850,7 @@ use_preset_vocabulary: true
 蕁麻疹	xun ma zhen
 蕃侯	fan hou
 蕃坊	fan fang
+蕃孌	fan luan
 蕃孌	fan lvan
 蕃帽	fan mao
 蕃庶	fan shu
@@ -65666,6 +65770,11 @@ use_preset_vocabulary: true
 表率	biao shuai
 表識	biao zhi
 表露	biao lu
+衹好	zhi hao
+衹是	zhi shi
+衹有	zhi you
+衹管	zhi guan
+衹要	zhi yao
 衾枕之樂	qin zhen zhi le
 袁樞	yuan shu
 袍笏	pao hu
@@ -66894,6 +67003,7 @@ use_preset_vocabulary: true
 起高調	qi gao diao
 趁熟	chen shou
 趄趄	ju ju
+趄趄	qie qie
 超感覺	chao gan jue
 超詣	chao yi
 超重	chao zhong
@@ -66907,8 +67017,8 @@ use_preset_vocabulary: true
 趑趄	zi ju
 趑趄不前	zi ju bu qian
 趑趄卻顧	zi ju que gu
-趔趄	lie ju
 趔趔趄趄	lie lie ju ju
+趔趔趄趄	lie lie qie qie
 趕着增福神着棍打	gan zhe zeng fu shen zhao gun da
 趙令畤	zhao ling zhi
 趙伯駒	zhao bo ju
@@ -68449,6 +68559,7 @@ use_preset_vocabulary: true
 錯角	cuo jiao
 鍉針	di zhen
 鍠聒	huang gua
+鍠聒	huang guo
 鍥薄	qie bo
 鍵盤樂器	jian pan yue qi
 鍼芥相投	zhen jie xiang tou
@@ -68948,6 +69059,7 @@ use_preset_vocabulary: true
 閒氣	jian qi
 閒氣	xian qi
 閒聒七	xian gua qi
+閒聒七	xian guo qi
 閒行	jian xing
 閒覷	jian qu
 閒言	jian yan
@@ -69639,6 +69751,7 @@ use_preset_vocabulary: true
 鞭辟入裏	bian bi ru li
 鞭辟近裏	bian bi jin li
 鞭長莫及	bian chang mo ji
+鞲鞴	gou bei
 鞴馬	bei ma
 韁繩	jiang sheng
 韁轡	jiang pei
