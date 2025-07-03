@@ -1,11 +1,16 @@
 function date_translator(input, seg)
 	if input == "date" then
 		--- Candidate(type, start, end, text, comment)
-		yield(Candidate("date", seg.start, seg._end, os.date("%Y-%m-%d"), ""))
+		yield(Candidate("date", seg.start, seg._end, os.date("%Y-%m-%d"), "当前日期"))
 		yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日"), ""))
 		yield(Candidate("date", seg.start, seg._end, os.date("%m-%d"), ""))
 		yield(Candidate("date", seg.start, seg._end, os.date("%Y/%m/%d"), ""))
 	end
+
+	if input == "datetime" then
+		yield(Candidate("datetime", seg.start, seg._end, os.date("%Y-%m-%d %H:%M"), "当前日期和时间"))
+	end
+
 	if input == "time" then
 		--- Candidate(type, start, end, text, comment)
 		yield(Candidate("time", seg.start, seg._end, os.date("%H:%M"), ""))
