@@ -7,3 +7,6 @@ quarto.setup()
 vim.keymap.set("n", "<leader>qp", quarto.quartoPreview, { desc = "Preview", silent = true, noremap = true })
 -- Markdown Preview
 vim.keymap.set("n", "<leader>mp", "<CMD>MarkdownPreview<CR>", { desc = "Preview markdown files in browser" })
+-- Otter
+local otter = require("otter")
+vim.keymap.set("n", "<leader>oa", otter.activate, { desc = "Activate Otter in current file" })

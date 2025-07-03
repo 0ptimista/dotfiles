@@ -6,5 +6,8 @@ return {
       "jmbuhr/otter.nvim",
       "nvim-treesitter/nvim-treesitter",
     },
+    opts = {
+      languages = { "r", "python", "julia", "bash", "html", "ojs", "javascript" },
+    },
   },
 }

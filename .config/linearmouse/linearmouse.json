@@ -10,54 +10,106 @@
       },
       "if" : {
         "device" : {
-          "vendorID" : "0x46d",
+          "productName" : "MX Master 3",
           "serialNumber" : "294E5B1A12AC872C",
-          "category" : "mouse",
+          "vendorID" : "0x46d",
           "productID" : "0xb023",
-          "productName" : "MX Master 3"
+          "category" : "mouse"
         }
       },
       "scrolling" : {
         "reverse" : true,
+        "acceleration" : 1,
+        "distance" : {
+          "vertical" : "auto"
+        },
         "speed" : {
+          "vertical" : 1
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "pointer" : {
+        "acceleration" : 1.2,
+        "speed" : 0.1
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "productID" : "0xb031",
+          "productName" : "LIFT",
+          "serialNumber" : "6A29C5FB",
+          "category" : "mouse"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
           "vertical" : 1
         },
         "distance" : {
           "vertical" : "auto"
         },
-        "acceleration" : 1
+        "reverse" : {
+          "vertical" : true
+        },
+        "speed" : {
+          "vertical" : 0
+        }
       }
     },
     {
       "scrolling" : {
         "reverse" : {
           "vertical" : true
-        },
-        "distance" : {
-          "vertical" : "auto"
-        },
-        "speed" : {
-          "vertical" : 0
-        },
-        "acceleration" : {
-          "vertical" : 1
         }
-      },
-      "pointer" : {
-        "speed" : 0.1,
-        "acceleration" : 2
       },
       "if" : {
         "device" : {
+          "productName" : "Dell MS116 USB Optical Mouse",
+          "vendorID" : "0x413c",
           "category" : "mouse",
+          "productID" : "0x301a"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productName" : "V-MX Master 3",
           "vendorID" : "0x46d",
-          "productID" : "0xb031",
-          "productName" : "LIFT",
-          "serialNumber" : "6A29C5FB"
+          "category" : "mouse",
+          "productID" : "0xb023"
         }
       },
-      "buttons" : {
-        "universalBackForward" : true
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : true
+        }
+      }
+    },
+    {
+      "pointer" : {
+        "speed" : 0.1176
+      },
+      "if" : {
+        "device" : {
+          "productName" : "LIFT",
+          "productID" : "0xb031",
+          "category" : "mouse",
+          "serialNumber" : "1B886C55",
+          "vendorID" : "0x46d"
+        }
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "reverse" : {
+          "vertical" : true
+        }
       }
     }
   ]
