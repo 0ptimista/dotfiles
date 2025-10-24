@@ -25,8 +25,13 @@ alias noproxy='export https_proxy=;http_proxy=;all_proxy=;'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias lzgit='lazygit -g $HOME/.cfg/ -w $HOME'
 alias cls='clear'
-alias ll='ls -ltha'
+# alias ll='ls -ltha'
 
+alias ls="eza --icons --group-directories-first --git"
+alias ll="eza -lah --icons --group-directories-first --git"
+alias lt="eza --tree --level=2 --icons"
+
+alias ranger='TERM=xterm-256color ranger'
 
 # 插件
 # zsh-autosuggestions https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#homebrew
@@ -39,6 +44,11 @@ source <(fzf --zsh)
 eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 
+# Add Nexus CLI to PATH
+export PATH="/Users/luo/.nexus/bin:$PATH"
 
 # Starship 提示符修改工具
 eval "$(starship init zsh)"
+
+test -e "${ZDOTDIR}/.iterm2_shell_integration.zsh" && source "${ZDOTDIR}/.iterm2_shell_integration.zsh"
+
